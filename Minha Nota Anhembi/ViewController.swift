@@ -29,14 +29,6 @@ class ViewController: UIViewController {
         }
     }
     
-    func showResults() {
-        if resultado >= 6.0 {
-            performSegue(withIdentifier: "seguePrimeiraTela", sender: nil)
-        } else {
-            performSegue(withIdentifier: "seguePrimeiraTela", sender: nil)
-        }
-    }
-    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let destination = segue.destination as? primeiraTela {
             if resultado >= 6.0 {
