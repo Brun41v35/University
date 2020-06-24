@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E2D87D024A28B0D00442FC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E2D87CF24A28B0D00442FC0 /* Assets.xcassets */; };
 		6E2E9B8F249BAEAA008991DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2E9B8E249BAEAA008991DE /* AppDelegate.swift */; };
 		6E2E9B91249BAEAA008991DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2E9B90249BAEAA008991DE /* SceneDelegate.swift */; };
 		6E2E9B93249BAEAA008991DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2E9B92249BAEAA008991DE /* ViewController.swift */; };
@@ -17,7 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6E2E9B8B249BAEAA008991DE /* Minha Nota Anhembi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Minha Nota Anhembi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E2D87CF24A28B0D00442FC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../Desktop/AppIcons/Assets.xcassets; sourceTree = "<group>"; };
+		6E2E9B8B249BAEAA008991DE /* Media Minha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Media Minha.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E2E9B8E249BAEAA008991DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6E2E9B90249BAEAA008991DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		6E2E9B92249BAEAA008991DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,7 +52,7 @@
 		6E2E9B8C249BAEAA008991DE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6E2E9B8B249BAEAA008991DE /* Minha Nota Anhembi.app */,
+				6E2E9B8B249BAEAA008991DE /* Media Minha.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,6 +66,7 @@
 				6E4A829724A015CA00C54CF1 /* primeiraTela.swift */,
 				6E2E9B94249BAEAA008991DE /* Main.storyboard */,
 				6E2E9B97249BAEAB008991DE /* Assets.xcassets */,
+				6E2D87CF24A28B0D00442FC0 /* Assets.xcassets */,
 				6E2E9B99249BAEAB008991DE /* LaunchScreen.storyboard */,
 				6E2E9B9C249BAEAB008991DE /* Info.plist */,
 			);
@@ -87,7 +90,7 @@
 			);
 			name = "Minha Nota Anhembi";
 			productName = "Minha Nota Anhembi";
-			productReference = 6E2E9B8B249BAEAA008991DE /* Minha Nota Anhembi.app */;
+			productReference = 6E2E9B8B249BAEAA008991DE /* Media Minha.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -130,6 +133,7 @@
 			files = (
 				6E2E9B9B249BAEAB008991DE /* LaunchScreen.storyboard in Resources */,
 				6E2E9B98249BAEAB008991DE /* Assets.xcassets in Resources */,
+				6E2D87D024A28B0D00442FC0 /* Assets.xcassets in Resources */,
 				6E2E9B96249BAEAA008991DE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,8 +298,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "BrunoAlves.Minha-Nota-Anhembi";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "BrunoAlves.Media-Minha";
+				PRODUCT_NAME = "Media Minha";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -311,8 +315,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "BrunoAlves.Minha-Nota-Anhembi";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "BrunoAlves.Media-Minha";
+				PRODUCT_NAME = "Media Minha";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

@@ -7,22 +7,22 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Simulador de Notas-->
+        <!--Média Minha-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Minha_Nota_Anhembi" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Media_Minha" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="KXx-pm-ms5">
-                                <rect key="frame" x="0.0" y="140" width="414" height="722"/>
+                                <rect key="frame" x="0.0" y="148.5" width="414" height="713.5"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PDU-u5-e05" userLabel="Top View">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="240"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="237"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mac" translatesAutoresizingMaskIntoConstraints="NO" id="Jko-Mh-sAe">
-                                                <rect key="frame" x="157" y="70" width="100" height="100"/>
+                                                <rect key="frame" x="157" y="68.5" width="100" height="100"/>
                                             </imageView>
                                         </subviews>
                                         <constraints>
@@ -31,10 +31,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="O0Y-Xt-Oe1" userLabel="Middle View">
-                                        <rect key="frame" x="0.0" y="241" width="414" height="240"/>
+                                        <rect key="frame" x="0.0" y="238" width="414" height="237.5"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="EeQ-rH-T8O">
-                                                <rect key="frame" x="107" y="73.5" width="200" height="93"/>
+                                                <rect key="frame" x="107" y="72.5" width="200" height="93"/>
                                                 <subviews>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="N1" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Czp-2p-tl4">
                                                         <rect key="frame" x="0.0" y="0.0" width="200" height="34"/>
@@ -64,10 +64,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vFo-cd-BI2" userLabel="Bottom View">
-                                        <rect key="frame" x="0.0" y="482" width="414" height="240"/>
+                                        <rect key="frame" x="0.0" y="476.5" width="414" height="237"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="moJ-iO-i5t">
-                                                <rect key="frame" x="107" y="95" width="200" height="50"/>
+                                                <rect key="frame" x="107" y="93.5" width="200" height="50"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="9PB-X7-V0i"/>
@@ -103,7 +103,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Simulador de Notas" id="kyd-67-SA8">
+                    <navigationItem key="navigationItem" title="Média Minha" id="kyd-67-SA8">
                         <barButtonItem key="backBarButtonItem" title="Voltar" id="Skc-ZZ-qVR"/>
                     </navigationItem>
                     <connections>
@@ -119,7 +119,7 @@
         <!--Média-->
         <scene sceneID="9Y3-Dd-9rh">
             <objects>
-                <viewController id="2nj-yx-Nj1" customClass="primeiraTela" customModule="Minha_Nota_Anhembi" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="2nj-yx-Nj1" customClass="primeiraTela" customModule="Media_Minha" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wuf-rg-6dS">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

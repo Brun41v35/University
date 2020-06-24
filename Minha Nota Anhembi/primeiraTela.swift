@@ -24,7 +24,7 @@ class primeiraTela: UIViewController {
             txtSituacao.text = nameToDisplayS
             
             if nameToDisplayS == "Aprovado" {
-                self.view.backgroundColor = UIColor.init(red: 0.51, green: 255, blue: 102, alpha: 1.00)
+                self.view.backgroundColor = UIColor.init(red: 0.102, green: 0.205, blue: 0.170, alpha: 1.00)
                 image.image = UIImage(named: "smile")
             } else {
                 self.view.backgroundColor = UIColor.init(red: 255.0, green: 0.00, blue: 0.00, alpha: 1.00)
