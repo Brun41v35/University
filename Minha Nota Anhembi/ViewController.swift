@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Foundation
 
 class ViewController: UIViewController {
 
@@ -23,16 +24,32 @@ class ViewController: UIViewController {
     }
     
     @IBAction func btnCalcular(_ sender: Any) {
-        if let mediaN1 = Double(txtN1.text!), let mediaN2 = Double(txtN2.text!) {
-            resultado = (mediaN1 * 0.4) + (mediaN2 * 0.6)
-            performSegue(withIdentifier: "seguePrimeiraTela", sender: nil)
+        if let mediaN1 = txtN1.text, let mediaN2 = txtN2.text {
+            
+            let numberFormatter = NumberFormatter()
+            numberFormatter.decimalSeparator = ","
+            
+            if let n1 = numberFormatter.number(from: mediaN1), let n2 = numberFormatter.number(from: mediaN2) {
+                let valorn1 = Double(n1)
+                let valorn2 = Double(n2)
+                resultado = (valorn1 * 0.4) + (valorn2 * 0.6)
+                performSegue(withIdentifier: "seguePrimeiraTela", sender: nil)
+                
+            } else {
+                
+                print("Não foi possivel receber os valores n1 ou n2")
+            }
+            
+        } else {
+            
+            print("Não foi possivel receber os valores mediaN2 ou mediaN2")
         }
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let destination = segue.destination as? primeiraTela {
             if resultado >= 6.0 {
-                destination.result = String(Int(resultado))
+                destination.result = String(resultado)
                 destination.resultSituacao = "Aprovado"
             } else {
                 destination.result = String(Int(resultado))
