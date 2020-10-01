@@ -10,14 +10,14 @@ import UIKit
 
 class primeiraTela: UIViewController {
     
-    // - MARK: Variaveis
+    // MARK: - Variaveis
     @IBOutlet weak var txtSituacao: UILabel!
     @IBOutlet weak var txtResultado: UILabel!
     var result: String?
     var resultSituacao: String?
     @IBOutlet weak var image: UIImageView!
     
-    // - MARK: Processamento
+    // MARK: - Processamento
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -26,7 +26,7 @@ class primeiraTela: UIViewController {
             txtSituacao.text = situacaoAluno
             
             if situacaoAluno == "Aprovado" {
-                self.view.backgroundColor = UIColor.init(red: 0.102, green: 0.205, blue: 0.170, alpha: 1.00)
+                self.view.backgroundColor = UIColor.init(red: 0.1922, green: 0.5725, blue: 0.5255, alpha: 1.00)
                 image.image = UIImage(named: "smile")
             } else {
                 self.view.backgroundColor = UIColor.init(red: 255.0, green: 0.00, blue: 0.00, alpha: 1.00)

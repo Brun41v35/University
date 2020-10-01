@@ -7,3 +7,14 @@
 //
 
 import Foundation
+
+class Usuario {
+    
+    // MARK: - Atributos
+    var nome: String
+    
+    // MARK: - Construtor
+    init(nome: String) {
+        self.nome = nome
+    }
+}
