@@ -239,7 +239,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="aKV-a7-03l"/>
-                        <color key="backgroundColor" red="0.19125938419999999" green="0.57275742289999998" blue="0.52712774279999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.19215686274509802" green="0.5725490196078431" blue="0.52549019607843139" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Media Minha" id="XwA-Zr-jmA"/>
                     <connections>

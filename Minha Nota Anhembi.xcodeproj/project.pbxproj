@@ -11,7 +11,7 @@
 		6E2E9B91249BAEAA008991DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2E9B90249BAEAA008991DE /* SceneDelegate.swift */; };
 		6E2E9B93249BAEAA008991DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2E9B92249BAEAA008991DE /* ViewController.swift */; };
 		6E2E9B96249BAEAA008991DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E2E9B94249BAEAA008991DE /* Main.storyboard */; };
-		6E2E9B98249BAEAB008991DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E2E9B97249BAEAB008991DE /* Assets.xcassets */; };
+		6E2E9B98249BAEAB008991DE /* 	.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E2E9B97249BAEAB008991DE /* 	.xcassets */; };
 		6E2E9B9B249BAEAB008991DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E2E9B99249BAEAB008991DE /* LaunchScreen.storyboard */; };
 		6E4A829824A015CA00C54CF1 /* primeiraTela.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4A829724A015CA00C54CF1 /* primeiraTela.swift */; };
 		7E1D8227251EC4940031A08C /* NomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1D8226251EC4940031A08C /* NomeViewController.swift */; };
@@ -24,7 +24,7 @@
 		6E2E9B90249BAEAA008991DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		6E2E9B92249BAEAA008991DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6E2E9B95249BAEAA008991DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6E2E9B97249BAEAB008991DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E2E9B97249BAEAB008991DE /* 	.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "\t.xcassets"; sourceTree = "<group>"; };
 		6E2E9B9A249BAEAB008991DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6E2E9B9C249BAEAB008991DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E4A829724A015CA00C54CF1 /* primeiraTela.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = primeiraTela.swift; sourceTree = "<group>"; };
@@ -76,7 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				6E2E9B94249BAEAA008991DE /* Main.storyboard */,
-				6E2E9B97249BAEAB008991DE /* Assets.xcassets */,
+				6E2E9B97249BAEAB008991DE /* 	.xcassets */,
 				6E2E9B99249BAEAB008991DE /* LaunchScreen.storyboard */,
 			);
 			path = View;
@@ -159,7 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E2E9B9B249BAEAB008991DE /* LaunchScreen.storyboard in Resources */,
-				6E2E9B98249BAEAB008991DE /* Assets.xcassets in Resources */,
+				6E2E9B98249BAEAB008991DE /* 	.xcassets in Resources */,
 				6E2E9B96249BAEAA008991DE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
