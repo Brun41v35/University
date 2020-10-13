@@ -20,6 +20,12 @@ class NomeViewController: UIViewController {
         super.viewDidLoad()
     }
     
+    // MARK: - Metodo responsavel por esconder teclado
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        view.endEditing(true)
+    }
+    
+    // MARK: - Funcao salvarNome 
     @IBAction func salvarNome(_ sender: Any) {
         
         guard let nome = txtNome.text else { return }
