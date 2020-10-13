@@ -29,7 +29,7 @@ class primeiraTela: UIViewController {
                 self.view.backgroundColor = UIColor.init(red: 0.1922, green: 0.5725, blue: 0.5255, alpha: 1.00)
                 image.image = UIImage(named: "smile")
             } else {
-                self.view.backgroundColor = UIColor.init(red: 255.0, green: 0.00, blue: 0.00, alpha: 1.00)
+                self.view.backgroundColor = UIColor.init(red: 1.00, green: 0.25, blue: 0.30, alpha: 1.00)
                 image.image = UIImage(named: "chorando")
             }
         }
